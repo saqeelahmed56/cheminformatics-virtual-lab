@@ -206,11 +206,22 @@ if page == PAGES[0]:
     st.header("Welcome to the Virtual Laboratory")
     st.markdown(
         "In this laboratory you can:\n\n"
-        "✅ Learn SMILES notation  \n"
-        "✅ Visualize molecules in 2D and 3D  \n"
-        "✅ Calculate complete molecular properties  \n"
-        "✅ Download molecular reports  \n"
-        "✅ Compare multiple molecules  \n"
+        "✅ Enter any SMILES notation"
+
+        "✅ Validate molecular structures"
+
+        "✅ Generate 2D structures"
+
+        "✅ Generate interactive 3D structures"
+
+        "✅ Select different molecular visualization styles"
+
+        "✅ Calculate complete molecular properties"
+
+        "✅ Download molecular reports"
+
+        "✅ Compare multiple molecules"
+
         "✅ Complete an assessment"
     )
     st.subheader("Example Molecules")
@@ -358,4 +369,4 @@ else:
                                "cheminformatics_report.pdf", "application/pdf")
 
 st.divider()
-st.caption(f"🧪 Cheminformatics Virtual Laboratory | Developed using Python, Streamlit and RDKit | {COLLEGE}")
+st.caption(f"🧪 Cheminformatics Virtual Laboratory | Developed using Python, Streamlit and RDKit \n                 PEACE OUT GUYS")
