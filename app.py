@@ -10,14 +10,14 @@ from rdkit import Chem
 from rdkit.Chem import AllChem, Descriptors, Draw, Lipinski, rdMolDescriptors
 
 # ---------------- CONFIG (edit these) ----------------
-COLLEGE = "Your College Name"
+COLLEGE = "SRM Institute of Science and Technology,Tiruchirapalli"
 DEPARTMENT = "Department of Chemistry"
-DEVELOPER = "Your Name"
+DEVELOPER = "S Saqeel Ahmed"
 DEVELOPER_ROLE = "Student Developer"
-GUIDE = "Your Sir's Name"
-GUIDE_ROLE = "Assistant Professor"
+GUIDE = "Dr.P.Pachamuthu"
+GUIDE_ROLE = "Professor"
 LOGO_PATH = "logo.png"  # optional
-GITHUB_URL = "https://github.com/your-username/cheminformatics-virtual-lab"
+GITHUB_URL = "https://github.com/saqeel56/chem-informatics-virtual-lab"
 # -----------------------------------------------------
 
 st.set_page_config(page_title="Cheminformatics Virtual Lab", page_icon="🧪", layout="wide")
