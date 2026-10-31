@@ -17,7 +17,7 @@ DEVELOPER_ROLE = "Student Developer"
 GUIDE = "Dr.P.Pachamuthu"
 GUIDE_ROLE = "Professor"
 LOGO_PATH = "logo.png"  # optional
-GITHUB_URL = "https://github.com/saqeel56/chem-informatics-virtual-lab"
+GITHUB_URL = "https://github.com/saqeel56/cheminformatics-virtual-lab.git"
 # -----------------------------------------------------
 
 st.set_page_config(page_title="Cheminformatics Virtual Lab", page_icon="🧪", layout="wide")
